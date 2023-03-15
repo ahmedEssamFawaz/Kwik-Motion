@@ -1,6 +1,6 @@
 <template>
   <v-app dark>
-    <Header />
+    <LayoutsHeader />
     <v-main>
       <v-container>
         <Nuxt />
@@ -23,21 +23,12 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-footer
-      :absolute="!fixed"
-      app
-    >
-      <span>&copy; {{ new Date().getFullYear() }}</span>
-    </v-footer>
+   <LayoutsFooter/>
   </v-app>
 </template>
 
 <script>
-import Header from '../components/layouts/Header.vue';
 export default {
-  components: {
-    Header
-  },
   name: 'DefaultLayout',
   data () {
     return {
