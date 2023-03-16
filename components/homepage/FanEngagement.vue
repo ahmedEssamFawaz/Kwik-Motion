@@ -50,7 +50,7 @@ export default Vue.extend({});
     position: relative;
     z-index: 2;
     span {
-      font-size: 24px;
+      font-size: 20px;
       color: #333;
       text-transform: uppercase;
       font-weight: bold;
