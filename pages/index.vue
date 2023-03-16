@@ -3,6 +3,7 @@
     <HomepagePresentation/>
     <HomepageKwikIntro />
     <HomepageKwikFeatures />
+    <HomepageFanEngagement />
   </div>
 </template>
 

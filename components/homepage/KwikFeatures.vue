@@ -65,7 +65,7 @@ export default Vue.extend({
 <style scoped lang="scss">
 
 .kwikFeaturesWrapper{
-    margin-top: 150px;
+    margin: 150px 0;
     .featuresHeadTitle {
   font-size: 45px;
   color: #333;

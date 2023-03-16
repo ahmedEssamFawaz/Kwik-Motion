@@ -1,6 +1,6 @@
 <template>
-   <h2 class="rightContent" :style="{'background':backGround}">
-        <span>{{text}}</span>
+   <h2 class="rightContent">
+        <span>DELIVER STUNNING FEATURE-RICH VIDEO TO ANY DEVICE</span>
       </h2>
 </template>
 

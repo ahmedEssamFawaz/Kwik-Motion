@@ -25,7 +25,7 @@
       </div>
     </v-col>
     <v-col md="4" cols="12">
-        <BaseCommentImg backGround="~/assets/imgs/presentation-section/Group-791.png" text="DELIVER STUNNING FEATURE-RICH VIDEO TO ANY DEVICE"/>
+        <BaseCommentImg backGround="Group-791.png" source="presentation-section" text="DELIVER STUNNING FEATURE-RICH VIDEO TO ANY DEVICE"/>
       <!-- <h2 class="rightContent">
         <span>DELIVER STUNNING FEATURE-RICH VIDEO TO ANY DEVICE</span>
       </h2> -->
