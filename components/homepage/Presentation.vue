@@ -25,10 +25,9 @@
       </div>
     </v-col>
     <v-col md="4" cols="12">
-        <BaseCommentImg backGround="Group-791.png" source="presentation-section" text="DELIVER STUNNING FEATURE-RICH VIDEO TO ANY DEVICE"/>
-      <!-- <h2 class="rightContent">
+      <h2 class="rightContent">
         <span>DELIVER STUNNING FEATURE-RICH VIDEO TO ANY DEVICE</span>
-      </h2> -->
+      </h2>
     </v-col>
   </v-row>
 </template>
@@ -67,22 +66,22 @@ export default Vue.extend({});
   top: 7%;
   left: 39%;
 }
-// .rightContent {
-//   background: url("~/assets/imgs/presentation-section/Group-791.png");
-//   line-height: 1.4;
-//   padding: 20px 107px 121px 50px;
-//   width: 400px;
-//   margin: 20px auto;
-//   background-repeat: no-repeat;
-//   position: relative;
-// }
-// .rightContent span {
-//   font-size: 23px;
-//   color: #333;
-//   text-transform: uppercase;
-//   font-weight: bold;
-//   position: relative;
-//     right: 29px;
-//     top: 25px;
-// }
+.rightContent {
+  background: url("~/assets/imgs/presentation-section/Group-791.png");
+  line-height: 1.4;
+  padding: 20px 107px 121px 50px;
+  width: 400px;
+  margin: 20px auto;
+  background-repeat: no-repeat;
+  position: relative;
+  span{
+    font-size: 20px;
+  color: #333;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+    right: 29px;
+    top: 25px;
+  }
+}
 </style>
