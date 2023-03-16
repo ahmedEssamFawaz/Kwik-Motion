@@ -31,7 +31,7 @@
   background-repeat: no-repeat;
   position: relative;
   span{
-    font-size: 23px;
+    font-size: 20px;
   color: #333;
   text-transform: uppercase;
   font-weight: bold;

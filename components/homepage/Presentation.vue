@@ -63,8 +63,8 @@ export default Vue.extend({});
   background-image: url("@/assets/imgs/presentation-section/dragon-new.png");
   height: 44%;
   position: absolute;
-  width: 100%;
-  top: 15%;
+  width: 38%;
+  top: 7%;
   left: 39%;
 }
 // .rightContent {

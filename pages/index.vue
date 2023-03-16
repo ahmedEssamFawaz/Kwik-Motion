@@ -2,6 +2,7 @@
   <div>
     <HomepagePresentation/>
     <HomepageKwikIntro />
+    <HomepageKwikFeatures />
   </div>
 </template>
 

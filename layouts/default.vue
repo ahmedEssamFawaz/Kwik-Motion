@@ -55,3 +55,9 @@ export default {
   }
 }
 </script>
+<style lang="scss">
+.v-application {
+   font-family: $body-font-family, sans-serif !important;
+    
+ }
+</style>
