@@ -72,10 +72,8 @@ export default Vue.extend({
   text-align: center;
 }
 .mainCard{
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-top: 29px;
-    padding-bottom: 29px;
+    box-shadow: 0px 0px 10px #0000001A;
+    padding: 29px 9px;
 
     .cardsTitle{
     font-size: 20px;
