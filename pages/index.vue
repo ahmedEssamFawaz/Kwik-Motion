@@ -6,6 +6,7 @@
     <HomepageFanEngagement />
     <HomepageSecureReliableScalableSolution/>
     <HomepageKwikFunctionality/>
+    <HomepageProvenTrackRecord />
   </div>
 </template>
 

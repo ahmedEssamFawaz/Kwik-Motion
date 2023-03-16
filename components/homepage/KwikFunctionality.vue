@@ -30,7 +30,7 @@ export default Vue.extend({});
 
 <style scoped lang="scss">
 .kwikFunctionalityWrapper {
-  margin: 230px 0;
+  margin: 230px 0 0 0;
 }
 .kwikFunctionalityContainer {
   background-color: #ffd100;
@@ -49,7 +49,7 @@ export default Vue.extend({});
   .commentImg {
     background: url("@/assets/imgs/kwik-functionality-section/Group-663.png");
     line-height: 1.4;
-    padding: 20px 50px 121px 50px;
+    padding: 20px 50px 135px 50px;
     width: 400px;
     margin: 1px auto;
     background-repeat: no-repeat;
