@@ -4,6 +4,7 @@
     <HomepageKwikIntro />
     <HomepageKwikFeatures />
     <HomepageFanEngagement />
+    <HomepageSecureReliableScalableSolution/>
   </div>
 </template>
 

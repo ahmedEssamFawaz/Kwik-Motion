@@ -1,0 +1,39 @@
+{
+  "solutions": [
+    {
+      "id": 1,
+      "name": "Easy and secure video storage (S3)",
+      "icon":"Group-710"
+    },
+    {
+      "id": 2,
+      "name": "Across device Digital Rights Management",
+      "icon":"Group-712"
+    },
+    {
+      "id": 3,
+      "name": "Viewer engagement metrics and audience insight",
+      "icon":"Group-714"
+    },
+    {
+      "id": 4,
+      "name": "Integrated analytics capability and data-driven decisions",
+      "icon":"Group-716"
+    },
+    {
+      "id": 5,
+      "name": "Mid-tier caching and full redundancy",
+      "icon":"Group-718"
+    },
+    {
+      "id": 6,
+      "name": "Multi-media Content Distribution Network",
+      "icon":"Group-720"
+    },
+    {
+      "id": 7,
+      "name": "Full REST APIs and integration",
+      "icon":"Group-722"
+    }
+  ]
+}
