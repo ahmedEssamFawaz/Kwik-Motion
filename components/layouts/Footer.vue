@@ -74,13 +74,8 @@
               <v-btn class="loginButton my-1 ml-3 text-capitalize" large text>
                 Login
               </v-btn>
-              <v-btn
-                elevation="0"
-                color="#ffd100"
-                class="black--text text-capitalize"
-                large
-                >Request Demo</v-btn
-              >
+              <BaseMainButton text="Request Demo"/>
+
             </div>
           </div>
         </v-col>

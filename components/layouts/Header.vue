@@ -30,9 +30,8 @@
           <div class="loginLinks d-flex align-center">
             
             <v-btn text class="black--text text-capitalize" large>Login</v-btn>
+            <BaseMainButton text="Request Demo"/>
 
-            <v-btn elevation="0" color="#ffd100" class="black--text text-capitalize" large>Request Demo
-            </v-btn>
           </div>
         </v-col>
       </v-row>
