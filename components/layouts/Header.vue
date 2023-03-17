@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar color="white" dark max-height="140" height="123">
+  <v-app-bar color="white" dark max-height="140" height="123" elevation="1">
     <v-container fluid>
       <v-row no-gutters class="row-customization">
         <v-col cols="2" class="logo-container">

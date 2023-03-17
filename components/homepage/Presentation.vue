@@ -45,6 +45,7 @@ export default Vue.extend({});
   min-height: 30.9375rem;
   background-image: url("@/assets/imgs/presentation-section/Group-789.png");
   background-position: -99px -4px;
+  position: relative;
   .presentationTitle {
     font-size: 45px;
     color: #333;
@@ -60,11 +61,13 @@ export default Vue.extend({});
 }
 .presentationMainImg {
   background-image: url("@/assets/imgs/presentation-section/dragon-new.png");
-  height: 44%;
+  height: 100%;
+  background-size: contain;
   position: absolute;
-  width: 38%;
-  top: 2%;
-  left: 39%;
+    width: 100%;
+    top: 15%;
+    left: 56%;
+
 }
 .rightContent {
   background: url("~/assets/imgs/presentation-section/Group-791.png");

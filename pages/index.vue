@@ -49,6 +49,7 @@
     />
     <HomepageCollectionTools/>
     <HomepageWhitePeaksDesc/>
+    <HomepageContactUs />
   </div>
 </template>
 
