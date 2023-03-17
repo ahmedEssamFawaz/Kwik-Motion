@@ -7,7 +7,7 @@
             :src="
               require('@/assets/imgs/instant-market-section/Mask-Group-45.png')
             "
-            alt="imgName"
+            alt="laptop instant market"
           />
           <h2 class="leftContent">
             <span>ADVANCED CAPABILITY ON A SINGLE PLAYER</span>

@@ -48,6 +48,7 @@
       imgName="Mask-Group-41.png"
     />
     <HomepageCollectionTools/>
+    <HomepageWhitePeaksDesc/>
   </div>
 </template>
 

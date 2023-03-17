@@ -1,0 +1,20 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "desc": "We help broadcasters and businesses get their content to their customers. Whether it’s TV entertainment, education or business, we have the capability. Whether it’s for wider public consumption or internal employees, we can help ensure the reliable delivery of your video content."
+    },
+    {
+      "id": 2,
+      "desc": "We started twenty years ago in the Tech space and adopted and specialized in OTT at the inception. We have built an unrivalled knowledge and expertise in this industry."
+    },
+    {
+      "id": 3,
+      "desc": "We determined to make it easy for our customers to take their content, upload it, manage it as an asset, and to distribute it and monetise it."
+    },
+    {
+      "id": 4,
+      "desc": "We help customers see that there is a new way ahead, based on the opportunities that technology affords us, to distribute content through owning their own OTT channel."
+    }
+  ]
+}
