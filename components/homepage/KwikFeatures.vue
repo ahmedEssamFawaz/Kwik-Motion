@@ -4,18 +4,23 @@
       Content Creators need Professional Video tools
     </h2>
     <v-row justify="center">
-      <v-col v-for="(feature, index) in features" :key="index" md="2" sm="4" cols="12">
+      <v-col
+        v-for="(feature, index) in features"
+        :key="index"
+        md="2"
+        sm="4"
+        cols="12"
+      >
         <v-card class="mx-auto my-12 mainCard" max-width="254" height="235">
-                <v-img
-                contain
-                  height="85"
-                  width="85"
-                  class="mx-auto"
-                  :src="
-                    require(`../../assets/imgs/kwik-features-section/${feature.img}.png`)
-                  "
-                ></v-img>
-
+          <v-img
+            contain
+            height="85"
+            width="85"
+            class="mx-auto"
+            :src="
+              require(`../../assets/imgs/kwik-features-section/${feature.img}.png`)
+            "
+          ></v-img>
 
           <h3 class="cardsTitle">{{ feature.text }}</h3>
         </v-card>
@@ -63,38 +68,34 @@ export default Vue.extend({
 </script>
 
 <style scoped lang="scss">
-
-.kwikFeaturesWrapper{
-    margin: 150px 0;
-    .featuresHeadTitle {
-  font-size: 45px;
-  color: #333;
-  text-align: center;
-}
-.mainCard{
-    box-shadow: 0px 0px 10px #0000001A;
+.kwikFeaturesWrapper {
+  margin: 150px 0;
+  .featuresHeadTitle {
+    font-size: 45px;
+    color: #333;
+    text-align: center;
+  }
+  .mainCard {
+    box-shadow: 0px 0px 10px #0000001a;
     padding: 29px 9px;
 
-    .cardsTitle{
-    font-size: 20px;
-    text-align: center;
-    color: #333;
+    .cardsTitle {
+      font-size: 20px;
+      text-align: center;
+      color: #333;
+    }
+  }
 }
-}
-
-}
-@media (max-width: 1199px){
-    .kwikFeaturesWrapper .mainCard .cardsTitle{
-        padding-top: 10px;
+@media (max-width: 1199px) {
+  .kwikFeaturesWrapper .mainCard .cardsTitle {
+    padding-top: 10px;
     font-size: 16px;
-    text-align: center;
-    color: #333;
+  }
 }
-}
-@media (max-width: 600px){
-    .kwikFeaturesWrapper .mainCard{
-     margin-block: 0 !important;
-     margin-top: 20px !important;
-}
+@media (max-width: 600px) {
+  .kwikFeaturesWrapper .mainCard {
+    margin-block: 0 !important;
+    margin-top: 20px !important;
+  }
 }
 </style>

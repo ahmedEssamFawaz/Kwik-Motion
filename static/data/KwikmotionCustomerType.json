@@ -1,0 +1,53 @@
+{
+    "services": [
+      {
+        "id": 1,
+        "name": "TV & RADIO",
+        "image":"on-air",
+        "link":"/"
+      },
+      {
+        "id": 2,
+        "name": "ONLINE BROADCASTERS",
+        "image":"broadcasters",
+        "link":"/"
+      },
+      {
+        "id": 3,
+        "name": "PRODUCTION COMPANIES",
+        "image":"production-companies",
+        "link":"/"
+      },
+      {
+        "id": 4,
+        "name": "NEWS WEBSITES",
+        "image":"news",
+        "link":"/"
+      },
+      {
+        "id": 5,
+        "name": "VLOGGERS, BLOGGERS & PODCASTERS",
+        "image":"bloggers",
+        "link":"/"
+      },
+      {
+        "id": 6,
+        "name": "EVENT MANAGEMENT",
+        "image":"events",
+        "link":"/"
+      },
+      {
+        "id": 7,
+        "name": "EXISTING OTT PLATFORMS",
+        "image":"ott-platforms",
+        "link":"/"
+      },
+      {
+        "id": 8,
+        "name": "CONTENT RICH WEBSITES (Such as sports, business or education)",
+        "image":"content-websites",
+        "link":"/"
+      }
+    ]
+  }
+  

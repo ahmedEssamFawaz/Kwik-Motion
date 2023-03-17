@@ -63,7 +63,7 @@ export default Vue.extend({});
   height: 44%;
   position: absolute;
   width: 38%;
-  top: 7%;
+  top: 2%;
   left: 39%;
 }
 .rightContent {
