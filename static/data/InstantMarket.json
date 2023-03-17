@@ -1,0 +1,20 @@
+{
+    "services": [
+      {
+        "id": 1,
+        "name": "AI Assist ",
+        "desc":"Transcription, Translation, Moderation and Compliance, all driven by AI. "
+      },
+      {
+        "id": 2,
+        "name": "Clipping ",
+        "desc":"Pinpoint accuracy and easy to use clipping tool used by our major clients. "
+      },
+      {
+        "id": 3,
+        "name": "Video Editor",
+        "desc":"One of the most powerful video editors integrated in an OVP. Editing on-the-fly to save time and confusion."
+      }
+    ]
+  }
+  

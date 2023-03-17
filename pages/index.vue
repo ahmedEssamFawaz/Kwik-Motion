@@ -6,6 +6,7 @@
     <HomepageFanEngagement />
     <HomepageSecureReliableScalableSolution />
     <HomepageKwikFunctionality />
+    <HomepageInstantMarket/>
     <GlobalImageTextContainer
       headTitle="KWIKmotion™ has a proven track record"
       subHeadTitle="Our system is one of the most reliable, feature-rich Online Video solutions available."
