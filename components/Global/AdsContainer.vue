@@ -1,9 +1,9 @@
 <template>
   <div class="adsContainerWrapper">
-    <v-row class="my-12">
+    <v-row class="my-12" no-gutters>
       <v-col md="12" cols="12">
         <div class="adsContainerHolder">
-          <v-row>
+          <v-row no-gutters>
             <v-col md="6" cols="12" class="mainImgHolder">
               <div class="adsContainerMainImg" :style="{ backgroundImage: `url(${require(`@/assets/imgs/${destinationFolderImg}/${imgName}`)})` }" />
             </v-col>

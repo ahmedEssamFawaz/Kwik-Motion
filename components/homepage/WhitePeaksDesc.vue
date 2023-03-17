@@ -1,6 +1,6 @@
 <template>
   <div class="whitePeaksDescWrapper">
-    <v-row justify="center">
+    <v-row justify="center" no-gutters>
       <v-col md="6" cols="12">
         <div class="whitePeaksDescContainer">
           <v-img

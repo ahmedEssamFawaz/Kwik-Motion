@@ -1,6 +1,6 @@
 <template>
   <div class="instantMarketWrapper">
-    <v-row justify="center">
+    <v-row justify="center"  no-gutters>
       <v-col md="4" cols="12">
         <div class="img-holder">
           <img

@@ -1,9 +1,9 @@
 <template>
   <div class="contactUsWrapper">
-    <v-row>
+    <v-row no-gutters>
       <v-col md="12" cols="12">
         <div class="contactUsContainer">
-          <v-row>
+          <v-row no-gutters>
             <v-col cols="12">
               <div class="contactUsBox">
                 <div class="text-center">

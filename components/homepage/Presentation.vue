@@ -1,8 +1,8 @@
 <template>
-  <v-row>
+  <v-row no-gutters>
     <v-col md="8" cols="12">
       <div class="presentationDesc">
-        <v-row>
+        <v-row no-gutters>
           <v-col md="6" cols="12">
             <div class="presentationTitle">
               KWIKmotion™ is a monster <br />Online Video Solution
@@ -86,5 +86,48 @@ export default Vue.extend({});
     right: 29px;
     top: 25px;
   }
+}
+@media (max-width: 1565px) {
+  .presentationMainImg {
+    width: 83%;
+    top: 28%;
+    left: 49%;
+}
+.presentationDesc{
+  padding: 57px 0px 20px 70px;
+}
+.rightContent {
+  padding: 20px 0px 121px 50px;
+  max-width: 263px;
+}
+}
+@media (max-width: 1229px) {
+  .presentationMainImg {
+    width: 83%;
+    top: 28%;
+    left: 49%;
+}
+.presentationDesc{
+  .presentationTitle{
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .presentationSubTitle{
+    font-size: 16px;
+  }
+}
+}
+@media (max-width: 960px) {
+  .presentationDesc .presentationSubTitle{
+    position: relative;
+    z-index: 2;
+  }
+  .presentationMainImg {
+    left: 12%;
+
+}
+.rightContent{
+  display: none;
+}
 }
 </style>

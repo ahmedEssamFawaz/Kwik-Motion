@@ -3,12 +3,13 @@
     <v-container fluid>
       <v-row no-gutters class="row-customization">
         <v-col cols="2" class="logo-container">
-          <div class="logo">
+          <div class="logo text-center">
             <!-- Logo section -->
             <img
-              src="~/assets/imgs/main-logo/Group 6@2x.png"
+              :src="require('~/assets/imgs/main-logo/Group 6@2x.png')"
               alt="Logo"
               height="60"
+              max-width="100%"
             />
           </div>
         </v-col>
@@ -63,6 +64,7 @@ export default Vue.extend({});
 .logo {
   padding: 30px;
   padding-bottom: 0;
+  // padding-right: 0;
   height: 100%;
   img{
       max-width: 100%;
@@ -85,5 +87,13 @@ export default Vue.extend({});
 }
 .custom-color{
    color: #939393 !important;
+}
+@media (max-width: 1331px) {
+  .logo {
+
+  padding-right: 0;
+  padding-left: 2px;
+
+}
 }
 </style>

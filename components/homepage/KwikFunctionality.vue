@@ -1,9 +1,9 @@
 <template>
   <div class="kwikFunctionalityWrapper">
-    <v-row class="my-12">
+    <v-row class="my-12" no-gutters>
       <v-col md="12" cols="12">
         <div class="kwikFunctionalityContainer">
-          <v-row>
+          <v-row no-gutters>
             <v-col md="6" sm="4" cols="12">
               <div class="kwikFunctionalityMainImg" />
             </v-col>

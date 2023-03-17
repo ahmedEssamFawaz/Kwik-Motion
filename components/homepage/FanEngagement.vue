@@ -1,8 +1,8 @@
 <template>
-  <v-row class="my-12">
+  <v-row class="my-12" no-gutters>
     <v-col md="12" cols="12">
       <div class="fanEngagementWrapper">
-        <v-row>
+        <v-row no-gutters>
           <v-col  md="6" sm="8" cols="12">
             <h2 class="commentImg">
               <span
@@ -11,7 +11,7 @@
               >
             </h2>
           </v-col>
-          <v-col  md="6" sm="4" cols="12">
+          <v-col  md="6" sm="4" cols="12" class="mainImgHolder">
             <div class="fanEngagementMainImg" />
           </v-col>
         </v-row>
@@ -27,19 +27,26 @@ export default Vue.extend({});
 </script>
 
 <style scoped lang="scss">
+
 .fanEngagementWrapper {
   background-color: #ffd100;
   height: 188px;
   background-image: url("@/assets/imgs/fan-engagement-section/Group-798.png");
   background-position: 100% 12%;
+  .mainImgHolder{
+  position: relative;
   .fanEngagementMainImg {
     background-image: url("@/assets/imgs/fan-engagement-section/Right-content.png");
-    height: 509px;
-    position: relative;
+  height: 509px;
+    position: absolute;
+    width: 563px;
     background-size: contain;
-    bottom: 33%;
+    bottom: -23%;
+    left: 10%;
     z-index: 1;
   }
+}
+
   .commentImg {
     background: url("@/assets/imgs/fan-engagement-section/Group-797.png");
     line-height: 1.4;
@@ -60,17 +67,30 @@ export default Vue.extend({});
     }
   }
 }
-
+@media (max-width: 1635px){
+    .fanEngagementWrapper .mainImgHolder .fanEngagementMainImg {
+    height: 370px;
+      width: 372px;
+    bottom: -8%;
+}
+}
 @media (max-width: 960px){
-    .fanEngagementWrapper .fanEngagementMainImg {
+    .fanEngagementWrapper .mainImgHolder .fanEngagementMainImg {
     height: 270px;
-
+      width: 280px;
     bottom: 15%;
+}
+}
+@media (max-width: 889px){
+    .fanEngagementWrapper .mainImgHolder .fanEngagementMainImg {
+      height: 261px;
+    width: 236px;
+    bottom: 9%;
 }
 }
 @media (max-width: 600px){
  
-  .fanEngagementWrapper .fanEngagementMainImg {
+  .fanEngagementWrapper .mainImgHolder .fanEngagementMainImg {
     display: none;
   }
   

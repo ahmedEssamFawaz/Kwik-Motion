@@ -3,7 +3,7 @@
     <h2 class="collectionToolsHeadTitle">
       Instantly to market with our collection of KWIKmotion™ tools
     </h2>
-    <v-row justify="center">
+    <v-row justify="center" no-gutters>
       <v-col v-for="tool in tools" :key="tool.id" md="2" sm="4" cols="12">
         <v-card class="mx-auto my-12 mainCard" max-width="254" height="235">
           <v-card-text class="px-0 mb-5">

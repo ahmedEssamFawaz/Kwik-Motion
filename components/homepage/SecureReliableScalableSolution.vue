@@ -1,6 +1,6 @@
 <template>
   <div class="solutionsWrapper">
-    <v-row justify="center">
+    <v-row justify="center" no-gutters>
       <v-col md="6" cols="12" class="order-last order-md-first">
         <h3 class="solutionsHeadTitle">
           We make sure your solution is secure, reliable, scalable

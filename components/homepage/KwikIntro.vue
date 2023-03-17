@@ -1,5 +1,5 @@
 <template>
-  <v-row class="mt-12">
+  <v-row class="mt-12" no-gutters>
     <v-col md="6" cols="12" class="d-flex align-center">
       <img
         class="mx-auto img-holder"

@@ -1,7 +1,7 @@
 <template>
   <v-footer dark padless min-height="403" color="#333333">
     <v-card flat tile height="100%" class="footerContainer">
-      <v-row>
+      <v-row no-gutters>
         <v-col md="2" cols="12">
           <v-card-text>
             <!-- Logo section -->
@@ -81,7 +81,7 @@
         </v-col>
       </v-row>
 
-      <v-row justify="center" class="mt-15">
+      <v-row justify="center" class="mt-15" no-gutters>
         <v-col cols="8">
           <div class="d-flex justify-space-between privacyLinksContainer">
             <div class="servicesLinks">
