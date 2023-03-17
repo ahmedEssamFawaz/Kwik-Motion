@@ -50,7 +50,7 @@ export default Vue.extend({
 
 <style scoped lang="scss">
 .collectionToolsWrapper {
-  margin: 150px 0;
+  margin: 150px 0 80px 0;
   .collectionToolsHeadTitle {
     font-size: 45px;
     color: #333;

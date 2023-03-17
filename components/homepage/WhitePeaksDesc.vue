@@ -33,6 +33,15 @@
               </v-list-item>
             </v-list-item-group>
           </v-list>
+          <div class="whitePeaksBtnHolder">
+            <v-btn
+              elevation="0"
+              color="#00AEF6"
+              class="whitePeaksBtn text-capitalize"
+              large
+              >Visit our website</v-btn
+            >
+          </div>
         </div>
       </v-col>
       <v-col md="6" cols="12">
@@ -70,7 +79,7 @@ export default Vue.extend({
 
 <style scoped lang="scss">
 .whitePeaksDescWrapper {
-  margin: 250px 0 0 0;
+  margin: 0 0 0 0;
   background-image: url("@/assets/imgs/white-peaks-desc-section/Group-788.png");
   background-size: cover;
 
@@ -100,6 +109,13 @@ export default Vue.extend({
     padding-top: 120px;
     .img-holder {
       max-width: 100%;
+    }
+  }
+  .whitePeaksBtnHolder {
+    padding-left: 70px;
+    .whitePeaksBtn {
+      color: #fff;
+      font-weight: 500;
     }
   }
 }
