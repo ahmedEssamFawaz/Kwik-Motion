@@ -1,0 +1,31 @@
+{
+    "tools": [
+      {
+        "id": 1,
+        "name":"Complete Video Management",
+        "image":"kwikPrime"
+      },
+      {
+        "id": 2,
+        "name":"High quality, multi-format delivery of streams",
+        "image":"kwikPlayer"
+
+      },
+      {
+        "id": 3,
+        "name":"Easy and powerful editing tools",
+        "image":"kwikEditor"
+      },
+      {
+        "id": 4,
+        "name":"Audience engagement metrics",
+        "image":"kwikAnalytics"
+      },
+      {
+        "id": 5,
+        "name":"AI moderation and smart keyword search",
+        "image":"kwikInit"
+      }
+    ]
+  }
+  

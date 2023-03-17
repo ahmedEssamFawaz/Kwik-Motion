@@ -47,6 +47,7 @@
       destinationFolderImg="invvotion-section"
       imgName="Mask-Group-41.png"
     />
+    <HomepageCollectionTools/>
   </div>
 </template>
 
