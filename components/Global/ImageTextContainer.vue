@@ -1,12 +1,12 @@
 <template>
-    <div class="containerWrapper">
+    <div class="containerWrapper" :style="{backgroundColor: '#'+bgColor}">
       <v-row class="mt-12">
         <v-col md="6" cols="12" class="order-last order-md-first">
           <div class="holder">
             <h3>
               {{headTitle}}
             </h3>
-            <h4>
+            <h4 class="mt-7">
              {{subHeadTitle}}
             </h4>
             <BaseMainButton v-if="btnText" :text="btnText" />
@@ -35,12 +35,14 @@
     @Prop({ type: String, required: false }) btnText?: string;
     @Prop({ type: String, required: true }) destinationFolderImg!: string;
     @Prop({ type: String, required: true }) imgName!: string;
+    @Prop({ type: String, required: false , default: 'fff' }) bgColor!: string;
+
   }
   </script>
   
   <style scoped lang="scss">
   .containerWrapper {
-    margin: 150px 120px;
+    padding: 150px 120px;
     .holder {
       padding-top: 5.9375rem;
       padding-right: 7.25rem;
@@ -49,7 +51,9 @@
         font-size: 45px;
         line-height: 60px;
       }
-  
+      h4{
+        font-size: 20px;
+      }
       > * {
         margin-bottom: 15px;
         &:last-child {
