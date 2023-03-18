@@ -51,7 +51,6 @@ export default Vue.extend({
 background-size: auto;
 }
 .kwikCustomerTypeWrapper {
-  margin: 150px 0;
   background-color: #F7FFFF;
   .customerTypeHeadTitle {
     font-size: 45px;
@@ -80,6 +79,12 @@ background-size: auto;
     font-size: 16px;
   }
 }
+@media (max-width: 960px) {
+    .kwikCustomerTypeWrapper .customerTypeHeadTitle{
+      font-size: 28px;
+      line-height: 40px;
+    }
+  }
 @media (max-width: 600px) {
   .kwikCustomerTypeWrapper .customerTypeCard {
     margin-block: 0 !important;

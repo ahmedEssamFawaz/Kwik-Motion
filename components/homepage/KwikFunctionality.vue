@@ -4,10 +4,10 @@
       <v-col md="12" cols="12">
         <div class="kwikFunctionalityContainer">
           <v-row no-gutters>
-            <v-col md="6" sm="4" cols="12">
+            <v-col md="6" cols="12">
               <div class="kwikFunctionalityMainImg" />
             </v-col>
-            <v-col md="6" sm="8" cols="12">
+            <v-col md="6" cols="12">
               <h2 class="commentImg">
                 <span
                   >AND THE ICING ON THE CAKE? THE KWIKmotion™ EXTRA
@@ -66,17 +66,17 @@ export default Vue.extend({});
     }
   }
 }
-
-@media (max-width: 960px) {
+@media (max-width: 1300px) {
   .kwikFunctionalityContainer .kwikFunctionalityMainImg {
-    height: 270px;
 
-    bottom: 15%;
+
+    bottom: 19%;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 960px) {
   .kwikFunctionalityContainer .kwikFunctionalityMainImg {
     display: none;
   }
 }
+
 </style>

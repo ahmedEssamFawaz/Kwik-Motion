@@ -58,7 +58,7 @@ export default Vue.extend({
 
 <style scoped lang="scss">
 .solutionsWrapper {
-  margin: 150px 120px;
+  margin: 155px 120px;
   .solutionsHeadTitle {
     font-size: 45px;
     color: #333;

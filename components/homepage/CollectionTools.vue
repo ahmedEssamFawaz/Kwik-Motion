@@ -80,6 +80,12 @@ export default Vue.extend({
     font-size: 16px;
   }
 }
+@media (max-width: 960px) {
+  .collectionToolsWrapper .collectionToolsHeadTitle{
+      font-size: 28px;
+      line-height: 40px;
+    }
+  }
 @media (max-width: 600px) {
   .collectionToolsWrapper .mainCard {
     margin-block: 0 !important;

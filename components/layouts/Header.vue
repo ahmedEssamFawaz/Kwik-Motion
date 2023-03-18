@@ -2,7 +2,7 @@
   <v-app-bar color="white" dark max-height="140" height="123" elevation="1">
     <v-container fluid>
       <v-row no-gutters class="row-customization">
-        <v-col cols="2" class="logo-container">
+        <v-col cols="4" md="2" class="logo-container">
           <div class="logo text-center">
             <!-- Logo section -->
             <img
@@ -64,7 +64,6 @@ export default Vue.extend({});
 .logo {
   padding: 30px;
   padding-bottom: 0;
-  // padding-right: 0;
   height: 100%;
   img{
       max-width: 100%;
@@ -83,17 +82,22 @@ export default Vue.extend({});
 .loginLinks {
   border-left: 1px solid #e0e0e0;
   height: 100%;
-  padding: 18px 50px 18px 35px;
+  // padding: 18px 50px 18px 35px;
 }
 .custom-color{
    color: #939393 !important;
 }
-@media (max-width: 1331px) {
+
+@media(max-width: 1023px) {
   .logo {
-
-  padding-right: 0;
-  padding-left: 2px;
-
+    padding: 20px 0;
+  }
+  .allLinks {
+    display: none;
+  }
+  .row-customization .loginLinks {
+    display: none !important;
+  }
 }
-}
+
 </style>

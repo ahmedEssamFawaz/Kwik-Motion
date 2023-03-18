@@ -38,7 +38,6 @@ export default class ImageTextCard extends Vue {
 
 <style scoped lang="scss">
 .adsContainerWrapper {
-  margin: 230px 0 0 0;
   .adsContainerHolder {
     background-color: #ffd100;
     height: 314px;

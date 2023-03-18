@@ -119,5 +119,50 @@ export default Vue.extend({
   }
 }
 }
+@media (max-width: 1767px) {
+  .instantMarketWrapper .img-holder{
+  margin: 0 auto;
+  width: 760px;
+ }
+}
+@media (max-width: 1500px) {
+  .instantMarketWrapper .img-holder{
+  width: 675px;
+ }
+ .instantMarketWrapper .img-holder .leftContent{
+  padding: 17px 50px 121px 65px;
+    width: 291px;
+ }
+}
+@media (max-width: 1300px) {
+  .instantMarketWrapper .img-holder{
+  width: 606px;
+ }
+ .instantMarketWrapper .img-holder .leftContent{
+  padding: 24px 0px 84px 63px;
+    width: 267px;
+ }
+}
+@media (max-width: 1100px) {
+  
+  .instantMarketWrapper {
+    .instantMarketDescWrapper .instantMarketHeadTitle{
+           font-size: 28px; 
+     line-height: 40px;
+    }
+    .img-holder{
+      width: 505px;
+    }
+  }
+ .instantMarketWrapper .img-holder .leftContent{
+    width: 267px;
+    right: 18%;
+ }
+}
+@media (max-width: 960px) {
+  .instantMarketWrapper .img-holder{
+  display: none;
+ }
+}
 
 </style>

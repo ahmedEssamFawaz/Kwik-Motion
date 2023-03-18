@@ -42,7 +42,7 @@
   
   <style scoped lang="scss">
   .containerWrapper {
-    padding: 150px 120px;
+    padding: 20px 120px;
     .holder {
       padding-top: 5.9375rem;
       padding-right: 7.25rem;
@@ -76,6 +76,13 @@
       padding-top: 0;
       padding-right: 0;
       text-align: center;
+      h3{
+        font-size: 28px;
+        line-height: 40px;
+      }
+      h4{
+        font-size: 16px;
+      }
     }
   }
   </style>
