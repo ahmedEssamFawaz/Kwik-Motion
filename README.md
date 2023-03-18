@@ -31,5 +31,5 @@ The data for the website is stored in JSON files, which are located in the stati
 
 ## Credits
 
-***This project was developed in Nuxt & TypeScript by Your Ahmed Essam.***
+***This project was developed in Nuxt & TypeScript by Ahmed Essam.***
 
