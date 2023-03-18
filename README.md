@@ -26,9 +26,10 @@ To run this project locally, you will need to have Node.js installed on your mac
 
 ## Usage
 
-**The website is designed to be responsive and accessible on a range of devices. It includes information about the company, its services, and its team members. The data for the website is stored in JSON files, which are located in the static/data directory. You can modify these files to update the content of the website.**
+**The website is designed to be responsive and accessible on a range of devices. It includes information about the company, its services.
+The data for the website is stored in JSON files, which are located in the static/data directory. You can modify these files to update the content of the website.**
 
 ## Credits
 
-***This project was developed in TypeScript by Your Ahmed Essam.***
+***This project was developed in Nuxt & TypeScript by Your Ahmed Essam.***
 
