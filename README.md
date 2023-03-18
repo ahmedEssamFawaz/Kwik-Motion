@@ -1,13 +1,12 @@
-Kwikmotion Software House
-Kwikmotion Software House is a web development company that offers a range of services, including web development, design, and consulting. This project is a website for the company, developed as part of a task, using Nuxt.js and TypeScript.
+#KWIKmotion
 
-Installation
+
+##Installation
 To run this project locally, you will need to have Node.js installed on your machine. Follow these steps to set up the project:
 
 Clone the repository from GitHub:
-bash
-Copy code
-git clone https://github.com/your-username/kwikmotion.git
+
+`git clone https://github.com/your-username/kwikmotion.git`
 Navigate to the project directory:
 bash
 Copy code
