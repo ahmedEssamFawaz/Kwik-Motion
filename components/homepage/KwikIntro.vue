@@ -67,7 +67,7 @@ export default Vue.extend({});
 }
 @media (max-width: 960px){
   .productWrapper{
-    padding-top: 0;
+    padding-top: 40px;
     padding-right: 0;
     text-align: center;
   }

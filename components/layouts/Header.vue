@@ -13,7 +13,8 @@
             />
           </div>
         </v-col>
-        <v-col cols="8">
+ 
+        <v-col cols="8" class="allLinksCol">
           <div class="allLinks">
             <div class="headLinks">
               <v-btn text class="custom-color text-capitalize" large>about</v-btn>
@@ -25,15 +26,20 @@
               <v-btn text class="black--text text-capitalize" large>Blog</v-btn>
             </div>
           </div>
+
         </v-col>
 
-        <v-col cols="2">
+        <v-col cols="2" class="loginLinksCol">
           <div class="loginLinks d-flex align-center">
             
             <v-btn text class="black--text text-capitalize" large>Login</v-btn>
             <BaseMainButton text="Request Demo"/>
-
+            
           </div>
+        </v-col>
+        <v-col cols="8" class="navCol">
+          <v-app-bar-nav-icon x-large color="black" @click="drawer = !drawer"/>
+
         </v-col>
       </v-row>
     </v-container>
@@ -69,7 +75,9 @@ export default Vue.extend({});
       max-width: 100%;
   }
 }
-
+.navCol{
+  display: none;
+}
 .allLinks {
   height: 100%;
   .headLinks {
@@ -82,7 +90,6 @@ export default Vue.extend({});
 .loginLinks {
   border-left: 1px solid #e0e0e0;
   height: 100%;
-  // padding: 18px 50px 18px 35px;
 }
 .custom-color{
    color: #939393 !important;
@@ -92,12 +99,19 @@ export default Vue.extend({});
   .logo {
     padding: 20px 0;
   }
-  .allLinks {
+
+  .allLinksCol{
     display: none;
   }
-  .row-customization .loginLinks {
-    display: none !important;
+  .navCol{
+    display: flex;
+    justify-content: end;
+
   }
+  .loginLinksCol{
+    display: none;
+  }
+
 }
 
 </style>

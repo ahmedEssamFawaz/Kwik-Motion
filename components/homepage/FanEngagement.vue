@@ -3,7 +3,7 @@
     <v-col md="12" cols="12">
       <div class="fanEngagementWrapper">
         <v-row no-gutters>
-          <v-col  md="6" sm="8" cols="12">
+          <v-col  md="6"  cols="12">
             <h2 class="commentImg">
               <span
                 >BUT WE DO MUCH MORE THAN GET THE ‘RIGHT CONTENT TO THE RIGHT
@@ -11,7 +11,7 @@
               >
             </h2>
           </v-col>
-          <v-col  md="6" sm="4" cols="12" class="mainImgHolder">
+          <v-col  md="6"  cols="12" class="mainImgHolder">
             <div class="fanEngagementMainImg" />
           </v-col>
         </v-row>
@@ -74,25 +74,11 @@ export default Vue.extend({});
     bottom: -8%;
 }
 }
+
 @media (max-width: 960px){
     .fanEngagementWrapper .mainImgHolder .fanEngagementMainImg {
-    height: 270px;
-      width: 280px;
-    bottom: 15%;
-}
-}
-@media (max-width: 889px){
-    .fanEngagementWrapper .mainImgHolder .fanEngagementMainImg {
-      height: 261px;
-    width: 236px;
-    bottom: 9%;
-}
-}
-@media (max-width: 600px){
- 
-  .fanEngagementWrapper .mainImgHolder .fanEngagementMainImg {
     display: none;
-  }
-  
 }
+}
+
 </style>

@@ -70,13 +70,7 @@
             <v-btn class="subscribeButton my-1 ml-3 text-capitalize" large>
               Subscribe
             </v-btn>
-            <div>
-              <v-btn class="loginButton my-1 ml-3 text-capitalize" large text>
-                Login
-              </v-btn>
-              <BaseMainButton text="Request Demo"/>
 
-            </div>
           </div>
         </v-col>
       </v-row>
@@ -216,11 +210,7 @@ export default Vue.extend({
   font-size: 16px;
   text-align: center;
 }
-.loginButton {
-  color: #fff;
-  padding-right: 14px;
-  padding-top: 11px;
-}
+
 .servicesLinks .v-btn{
   font-size: 12px;
     text-transform: capitalize;

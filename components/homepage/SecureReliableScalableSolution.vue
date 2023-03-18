@@ -75,7 +75,17 @@ export default Vue.extend({
 }
 
 }
-
+@media (max-width: 1229px) {
+  .solutionsWrapper{
+    margin: 150px 31px;
+    
+    .solutionsHeadTitle{
+      font-size: 28px;
+    line-height: 40px;
+  
+    }
+  } 
+}
 @media (max-width: 960px) {
   .solutionsWrapper{
     margin: 150px 31px;
@@ -83,6 +93,18 @@ export default Vue.extend({
     .img-holder{
       margin-top:50px;
   
+    }
+  } 
+}
+@media (max-width: 500px) {
+  .solutionsWrapper{
+    .solutionsHeadTitle{
+      font-size: 23px;
+    line-height: 35px;
+  
+    }
+    .solutionTitles{
+      font-size: 16px;
     }
   } 
 }

@@ -86,8 +86,9 @@ export default class ImageTextCard extends Vue {
 }
 @media (max-width: 960px) {
     .adsContainerWrapper .adsContainerHolder .holder{
-        padding-top: 0;
-    padding-left: 7.25rem;
+        padding-top: 2rem;
+    padding-left: 1.25rem;
+    padding-right: 2.25rem;
     }
     .adsContainerWrapper  .adsContainerHolder .mainImgHolder .adsContainerMainImg {
     display: none;

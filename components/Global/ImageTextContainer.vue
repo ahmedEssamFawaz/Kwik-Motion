@@ -12,7 +12,7 @@
             <BaseMainButton v-if="btnText" :text="btnText" />
           </div>
         </v-col>
-        <v-col md="6" cols="12" class="d-flex align-center">
+        <v-col md="6" cols="12" class="d-flex align-center justify-center">
           <img
             class="img-holder"
             :src="
@@ -72,16 +72,19 @@
     }
   }
   @media (max-width: 960px) {
-    .containerWrapper .holder {
-      padding-top: 0;
-      padding-right: 0;
-      text-align: center;
-      h3{
-        font-size: 28px;
-        line-height: 40px;
-      }
-      h4{
-        font-size: 16px;
+    .containerWrapper {
+      padding-inline: 0;
+      .holder {
+        padding-top: 0;
+        padding-right: 0;
+        text-align: center;
+        h3{
+          font-size: 28px;
+          line-height: 40px;
+        }
+        h4{
+          font-size: 16px;
+        }
       }
     }
   }

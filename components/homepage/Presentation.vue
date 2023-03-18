@@ -130,4 +130,9 @@ export default Vue.extend({});
   display: none;
 }
 }
+@media (max-width: 650px) {
+  .presentationMainImg {
+    display: none;
+}
+}
 </style>

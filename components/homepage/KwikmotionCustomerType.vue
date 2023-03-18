@@ -52,6 +52,7 @@ background-size: auto;
 }
 .kwikCustomerTypeWrapper {
   background-color: #F7FFFF;
+  margin-top: 100px;
   .customerTypeHeadTitle {
     font-size: 45px;
     color: #333;

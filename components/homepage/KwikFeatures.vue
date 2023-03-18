@@ -3,7 +3,7 @@
     <h2 class="featuresHeadTitle">
       Content Creators need Professional Video tools
     </h2>
-    <v-row justify="center" no-gutters>
+    <v-row justify="center">
       <v-col
         v-for="(feature, index) in features"
         :key="index"
