@@ -3,7 +3,7 @@
     <h2 class="featuresHeadTitle">
       Content Creators need Professional Video tools
     </h2>
-    <v-row justify="center">
+    <v-row>
       <v-col
         v-for="(feature, index) in features"
         :key="index"
@@ -103,5 +103,12 @@ export default Vue.extend({
   .kwikFeaturesWrapper .featuresHeadTitle{
   font-size: 30px;
 }
+}
+@media (min-width: 960px){
+  .col-md-2 {
+      flex: 0 0 19.666667%;
+      max-width: 19.666667%;
+  }
+
 }
 </style>

@@ -4,8 +4,11 @@
       <v-col md="12" cols="12">
         <div class="adsContainerHolder">
           <v-row no-gutters>
-            <v-col md="6" cols="12" class="mainImgHolder">
-              <div class="adsContainerMainImg" :style="{ backgroundImage: `url(${require(`@/assets/imgs/${destinationFolderImg}/${imgName}`)})` }" />
+            <v-col md="6" cols="12">
+              <div  class="mainImgHolder">
+                <div class="adsContainerMainImg" :style="{ backgroundImage: `url(${require(`@/assets/imgs/${destinationFolderImg}/${imgName}`)})` }" />
+
+              </div>
             </v-col>
             <v-col md="6" cols="12">
               <div class="holder">
@@ -15,6 +18,11 @@
                 <h4>
                   {{ subHeadTitle }}
                 </h4>
+              </div>
+            </v-col>
+            <v-col  cols="12">
+              <div  class="smImgHolder">
+<v-img :src="require(`@/assets/imgs/${destinationFolderImg}/${imgName}`)" height="250" contain/>
               </div>
             </v-col>
           </v-row>
@@ -38,11 +46,15 @@ export default class ImageTextCard extends Vue {
 
 <style scoped lang="scss">
 .adsContainerWrapper {
+  margin-top: 10rem;
   .adsContainerHolder {
     background-color: #ffd100;
     height: 314px;
     background-image: url("@/assets/imgs/kwik-functionality-section/Group-799.png");
     background-position: -30px 27px;
+    .smImgHolder{
+      display: none;
+    }
     .holder {
       padding-top: 3.5625rem;
       padding-right: 7.25rem;
@@ -92,6 +104,9 @@ export default class ImageTextCard extends Vue {
     }
     .adsContainerWrapper  .adsContainerHolder .mainImgHolder .adsContainerMainImg {
     display: none;
+  }
+  .adsContainerWrapper .adsContainerHolder .smImgHolder{
+    display: block;
   }
 }
 </style>

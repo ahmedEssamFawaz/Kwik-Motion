@@ -3,7 +3,7 @@
     <h2 class="collectionToolsHeadTitle">
       Instantly to market with our collection of KWIKmotion™ tools
     </h2>
-    <v-row justify="center" >
+    <v-row  >
       <v-col v-for="tool in tools" :key="tool.id" md="2" sm="4" cols="12">
         <v-card class="mx-auto my-12 mainCard" max-width="254" height="235">
           <v-card-text class="px-0 mb-5">
@@ -63,7 +63,7 @@ export default Vue.extend({
     flex-direction: column;
     justify-content: flex-end;
     .cardsTitleHolder {
-        height: 112px;
+      height: 4.688rem;
       background-color: #ffd100;
       .cardsTitle {
         font-size: 16px;
@@ -74,11 +74,20 @@ export default Vue.extend({
     }
   }
 }
+@media (max-width: 1443px) {
+  .collectionToolsWrapper .mainCard .cardsTitleHolder {
+    height: 5rem;
+  }
+}
 @media (max-width: 1199px) {
-  .collectionToolsWrapper .mainCard .cardsTitle {
-    padding-top: 10px;
+  .collectionToolsWrapper .mainCard {
+    .cardsTitleHolder{
+      height: 6.5rem;
+    }
+  .cardsTitle {
     font-size: 16px;
   }
+}
 }
 @media (max-width: 960px) {
   .collectionToolsWrapper .collectionToolsHeadTitle{
@@ -91,5 +100,12 @@ export default Vue.extend({
     margin-block: 0 !important;
     margin-top: 20px !important;
   }
+}
+@media (min-width: 960px){
+  .col-md-2 {
+      flex: 0 0 19.666667%;
+      max-width: 19.666667%;
+  }
+
 }
 </style>

@@ -6,10 +6,10 @@
           <div class="logo text-center">
             <!-- Logo section -->
             <img
-              :src="require('~/assets/imgs/main-logo/Group 6@2x.png')"
+              :src="require('~/assets/imgs/main-logo/Group 6.svg')"
               alt="Logo"
               height="60"
-              max-width="100%"
+              
             />
           </div>
         </v-col>
@@ -66,11 +66,12 @@ export default Vue.extend({});
 }
 .logo-container {
   border-right: 1px solid #e0e0e0;
+  display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .logo {
-  padding: 30px;
-  padding-bottom: 0;
-  height: 100%;
+
   img{
       max-width: 100%;
   }
@@ -96,9 +97,7 @@ export default Vue.extend({});
 }
 
 @media(max-width: 1023px) {
-  .logo {
-    padding: 20px 0;
-  }
+
 
   .allLinksCol{
     display: none;

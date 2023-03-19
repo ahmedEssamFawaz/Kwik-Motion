@@ -60,17 +60,25 @@
         </v-col>
         <v-col md="6" cols="12">
           <div class="subscribeContainer">
-            <label for="newsLetter"  class="subscribeLabel white--text">NewsLetter</label >
-            <input
-            id="newsLetter" name="newsLetter"
-              placeholder="Email Address"
-              class="newsLetterInput"
-              type="text"
-            />
+            <div class="footerInput">
+              <label for="newsLetter" class="subscribeLabel white--text"
+                >NewsLetter</label
+              >
+              <input
+                id="newsLetter"
+                name="newsLetter"
+                placeholder="Email Address"
+                class="newsLetterInput"
+                type="text"
+              />
+            </div>
             <v-btn class="subscribeButton my-1 ml-3 text-capitalize" large>
               Subscribe
             </v-btn>
-
+          </div>
+          <div class="footerRightBtns">
+            <v-btn text>Login</v-btn>
+            <BaseMainButton text="Request Demo" />
           </div>
         </v-col>
       </v-row>
@@ -80,28 +88,18 @@
           <div class="d-flex justify-space-between privacyLinksContainer">
             <div class="servicesLinks">
               <span>
-                <v-btn text>
-                  Terms of service
-                </v-btn>
+                <v-btn text> Terms of service </v-btn>
                 |
-                <v-btn class="pl-0" text>
-                Privacy Policy
-                </v-btn>
+                <v-btn class="pl-0" text> Privacy Policy </v-btn>
                 |
-                <v-btn text class="pl-0">
-                  Cookies
-                </v-btn>
+                <v-btn text class="pl-0"> Cookies </v-btn>
               </span>
-  
             </div>
             <div class="tradeMarkText">
               <p>&copy; 2023 - All Rights Reserved &copy;KWIKmotion&trade;</p>
-  
             </div>
-
           </div>
         </v-col>
-
       </v-row>
     </v-card>
   </v-footer>
@@ -184,22 +182,28 @@ export default Vue.extend({
   color: #ffd100;
 }
 .subscribeContainer {
-  padding-right: 21px;
-  padding-left: 42px;
-  padding-bottom: 10px;
-  padding-top: 16px;
-  .subscribeLabel {
-    font-size: 14px;
-    display: block;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+  justify-content: end;
+  .footerInput {
+    flex-basis: 70%;
+    padding-right: 0.5rem;
   }
-  .newsLetterInput {
-    border-radius: 3px 3px 3px 3px;
-    background-color: #525252;
-    border: none;
-    width: calc(100% - 450px);
-    color: #fff;
-    padding: 11px 0 13px 13px;
-  }
+}
+.subscribeLabel {
+  font-size: 14px;
+  display: block;
+}
+.newsLetterInput {
+  display: block;
+  background-color: #525252;
+  border: 0;
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 3px;
+  margin-top: 0.625rem;
+  caret-color: #fff;
 }
 .v-btn.subscribeButton {
   padding: 12px 41px 10px 41px;
@@ -210,41 +214,38 @@ export default Vue.extend({
   font-size: 16px;
   text-align: center;
 }
-
-.servicesLinks .v-btn{
-  font-size: 12px;
-    text-transform: capitalize;
-    padding-right: 0;
+.footerRightBtns {
+  text-align: right;
+  display: block;
 }
-.tradeMarkText{
+.servicesLinks .v-btn {
+  font-size: 12px;
+  text-transform: capitalize;
+  padding-right: 0;
+}
+.tradeMarkText {
   font-size: 12px;
   align-self: center;
-  p{
+  p {
     margin: 0;
   }
 }
-@media (max-width: 1400px){
-  .subscribeContainer{
-    .newsLetterInput {
-        width: calc(100% - 200px);
-    }
 
+@media (max-width: 960px) {
+  .subscribeContainer {
+    padding-left: 14px;
+    justify-content: start;
+    margin-top: 10px;
   }
-  
-}
-@media (max-width: 960px){
-  .subscribeContainer{
-padding-left: 14px; 
-
+  .footerRightBtns {
+    text-align: start;
   }
-  
 }
 
-@media (max-width: 881px){
-  .privacyLinksContainer{
+@media (max-width: 881px) {
+  .privacyLinksContainer {
     display: block !important;
     text-align: center;
   }
-  
 }
 </style>

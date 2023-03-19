@@ -1,7 +1,7 @@
 <template>
   <div class="kwikCustomerTypeWrapper">
     <h2 class="customerTypeHeadTitle mb-10">Are you a typical KWIKmotion™ customer?</h2>
-    <v-row no-gutters>
+    <v-row>
       <v-col
         v-for="service in services"
         :key="service.id"

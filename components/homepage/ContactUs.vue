@@ -78,9 +78,9 @@ export default Vue.extend({});
 }
 
 
-@media (max-width: 960px) {
+@media (max-width: 1251px) {
     .contactUsWrapper .contactUsContainer .imgHolderWrapper{
-    display: none;
+    // display: none;
 
 }
 }

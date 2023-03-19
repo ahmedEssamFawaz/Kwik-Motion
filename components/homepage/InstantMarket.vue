@@ -1,7 +1,7 @@
 <template>
   <div class="instantMarketWrapper">
-    <v-row justify="center"  no-gutters>
-      <v-col md="4" cols="12">
+    <v-row justify="center" no-gutters>
+      <v-col md="4" cols="12" class="order-last order-md-first">
         <div class="img-holder">
           <img
             :src="
@@ -64,7 +64,6 @@ export default Vue.extend({
 </script>
 
 <style scoped lang="scss">
-
 .instantMarketWrapper {
   margin: 250px 0 0 0;
   .img-holder {
@@ -98,71 +97,82 @@ export default Vue.extend({
     }
   }
   .instantMarketDescWrapper {
-  position: relative;
-  background-color: #ffd100;
-  padding: 37px 35px 20px 57px;
-  min-height: 30.9375rem;
-  background-image: url("@/assets/imgs/instant-market-section/Mask-Group-37.png");
-  background-position: 107% 104%;
-  .serviceListTitles {
-  font-size: 20px;
-  color: #333;
-  font-weight: bold;
-}
-  .instantMarketHeadTitle {
-    font-size: 45px;
-    color: #333;
-    line-height: 60px;
-    font-weight: bold;
-    text-align: left;
-    margin-bottom: 15px;
+    position: relative;
+    background-color: #ffd100;
+    padding: 37px 35px 20px 57px;
+    min-height: 30.9375rem;
+    background-image: url("@/assets/imgs/instant-market-section/Mask-Group-37.png");
+    background-position: 107% 104%;
+    .serviceListTitles {
+      font-size: 20px;
+      color: #333;
+      font-weight: bold;
+    }
+    .instantMarketHeadTitle {
+      font-size: 45px;
+      color: #333;
+      line-height: 60px;
+      font-weight: bold;
+      text-align: left;
+      margin-bottom: 15px;
+    }
   }
 }
-}
 @media (max-width: 1767px) {
-  .instantMarketWrapper .img-holder{
-  margin: 0 auto;
-  width: 760px;
- }
+  .instantMarketWrapper .img-holder {
+    margin: 0 auto;
+    width: 760px;
+  }
 }
 @media (max-width: 1500px) {
-  .instantMarketWrapper .img-holder{
-  width: 675px;
- }
- .instantMarketWrapper .img-holder .leftContent{
-  padding: 17px 50px 121px 65px;
+  .instantMarketWrapper .img-holder {
+    width: 675px;
+  }
+  .instantMarketWrapper .img-holder .leftContent {
+    padding: 17px 50px 121px 65px;
     width: 291px;
- }
+  }
 }
 @media (max-width: 1300px) {
-  .instantMarketWrapper .img-holder{
-  width: 606px;
- }
- .instantMarketWrapper .img-holder .leftContent{
-  padding: 24px 0px 84px 63px;
+  .instantMarketWrapper .img-holder {
+    width: 606px;
+  }
+  .instantMarketWrapper .img-holder .leftContent {
+    padding: 24px 0px 84px 63px;
     width: 267px;
- }
+  }
 }
 @media (max-width: 1100px) {
-  
   .instantMarketWrapper {
-    .instantMarketDescWrapper .instantMarketHeadTitle{
-           font-size: 28px; 
-     line-height: 40px;
+    .instantMarketDescWrapper .instantMarketHeadTitle {
+      font-size: 28px;
+      line-height: 40px;
     }
-    .img-holder{
+    .img-holder {
       width: 505px;
     }
   }
- .instantMarketWrapper .img-holder .leftContent{
+  .instantMarketWrapper .img-holder .leftContent {
     width: 267px;
     right: 18%;
- }
+  }
 }
 @media (max-width: 960px) {
-  .instantMarketWrapper .img-holder{
-  display: none;
- }
-}
+  
+  .instantMarketWrapper {
 
+    .img-holder {
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 960px) {
+  
+  .instantMarketWrapper {
+
+    .img-holder {
+      width: 100%;
+    }
+  }
+}
 </style>
